@@ -25,6 +25,7 @@
     </head>
     <body>
         <div id="demo">
+            <p>dsa</p>
             <button @click="show=!show">列表过渡</button>
             <transition-group name="fade" tag="div">
                 <div v-for="i in items" v-bind:key="i" v-if="show" class="fade-list">
