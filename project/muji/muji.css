@@ -1,0 +1,59 @@
+body{
+    color:#333;
+    font:10.6px "Helvetica","Lucida Grande","Microsoft YaHei",sans-serif;
+    position:relative;
+    margin:0;
+}
+/*使图片与父容器大小相同*/
+img{
+    max-width:100%;
+}
+ul{
+    list-style:none;
+    padding:0;
+}
+a{
+    text-decoration:none;
+    color:#666;
+}
+/*设置页眉的高度*/
+#globalHeader{
+    height:70px;
+    width:100%;
+}
+#globalHeader .headerWrap{
+    width:90%;
+    margin:0 auto;
+    /*设置position属性，使子元素绝对定位生效*/
+    position:relative;
+    max-width:1024px;
+}
+/*logo定位*/
+#siteName{
+    top:0;
+    left:0;
+    margin:0;
+    position:absolute;/*子元素相对于父元素的定位*/
+    width:130px;
+}
+#siteName a{
+    padding:15px 0;
+    display:block;
+    line-height:1;
+}
+/*列表*/
+#globalHeader .wrapper ul{
+    /*导航菜单偏移量*/
+    padding-left:15%;
+    margin:0;
+}
+/*列表菜单项的具体设置 布局 水平排列*/
+#globalHeader .wrapper li{
+    float:left;
+    font-size:13px;
+    padding:28px 10px;
+    line-height:1;
+}
+#hGlobalNav a:hover{
+    opacity:0.7;
+}
