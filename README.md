@@ -11,3 +11,5 @@ I want to start a career as a font-end wed developer, i didn't accept the system
 2019/6/5 I've learning something new everyday,today is jQuery UI.
 <br>
 2019/6/7 I got starting to create a muji style website.
+<br>
+2019/6/8 Add muji website to my resume,and add a new style resume style in english
